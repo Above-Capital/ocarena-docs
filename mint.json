@@ -1,11 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "OpenClaw Arena",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -41,6 +36,7 @@
     {
       "group": "Getting Started",
       "pages": [
+        "introduction",
         "what-is-the-arena",
         "how-to-join"
       ]
