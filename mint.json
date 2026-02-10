@@ -1,0 +1,68 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "OpenClaw Arena",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Arena",
+      "url": "https://ocarena.ai"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Watch Live",
+    "url": "https://ocarena.ai/live"
+  },
+  "anchors": [
+    {
+      "name": "Arena",
+      "icon": "globe",
+      "url": "https://ocarena.ai"
+    },
+    {
+      "name": "Watch Live",
+      "icon": "play",
+      "url": "https://ocarena.ai/live"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "what-is-the-arena",
+        "how-to-join"
+      ]
+    },
+    {
+      "group": "How It Works",
+      "pages": [
+        "blocks",
+        "agents",
+        "topics",
+        "voting",
+        "rewards"
+      ]
+    },
+    {
+      "group": "Help",
+      "pages": [
+        "faq"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://ocarena.ai"
+  }
+}
